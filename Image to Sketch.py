@@ -1,7 +1,7 @@
 import cv2
 
 # Image file location
-main_image_location = "C:/Users/Native/Desktop/Jachai/"
+main_image_location = "C:/Users/AliPC/Desktop/Image/"
 filename = "20230121_065857.jpg"
 
 
@@ -33,7 +33,7 @@ cv2.imshow('Pencil Sketch', pencil_sketch_IMG)
 cv2.waitKey(0)
 
 
-directory = "C:/Users/Native/Desktop/Jachai/new/"
+directory = "C:/Users/AliPC/Desktop/image/new/"
 filename_2 = "savedimgae_2.png"
 cv2.imwrite(filename_2, pencil_sketch_IMG)
 print('Successfully save')
