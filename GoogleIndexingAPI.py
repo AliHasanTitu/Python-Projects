@@ -44,7 +44,7 @@ def indexURL(urls, http):
 
 
 """
-data.csv has 2 columns: URL and date.
+Table.csv has 2 columns: URL and date.
 I just need the URL column.
 """
 csv = pd.read_csv("Table.csv")
